@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/02/2016, 14:05:48
+    Author     : martin
+*/
+@font-face {
+    font-family: "multicolore";
+    src: url('MULTICOLORE.ttf') format("truetype");
+}
+
+.customfont { 
+    font-family: "multicolore", Verdana, Tahoma;
+}
+.cuerpo{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    padding-top: 80px;
+}
+.barra{
+    background-color: #00A547;
+    width: 100%;
+    box-shadow: 0px 2px 5px #565656;
+}
+.logo{
+    max-height: 10vw;
+    margin: 20px 15px;
+}
+.botones{
+    color: white;
+    font-size: 9vw;
+    text-align: center;
+    padding: 20px;
+    border-radius: 14px;
+    line-height: 1;
+    font-weight: 600;
+    font-family: "multicolore";
+    box-shadow: 0px 2px 5px #565656;
+}
+.botonTarjetas{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: #F05319;
+}
+.botonPresupuesto{
+    background-color: #83D72C;
+    margin-bottom: 15px;
+    padding: 40px;
+}
+.botonJuga{
+    background-color: #4868C4;
+}
+
+.juegos{
+    font-family: "multicolore", Verdana, Tahoma;
+}
+.juegos div{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    color: #00A547;
+}
+.juegos{
+    display: none;
+}
+
+.footer {
+    display: none;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #00A547;
+}
+.icono{
+    max-width: 35px;
+    padding-top: 5px;
+}
+.icono-nav{
+    max-width: 25px;
+    padding: 10px 0px;
+    margin-left: 15px;
+}
+.tarjeta{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    z-index: -1;
+}
+.navbar-toggle .icon-bar{
+    background-color: white;
+}
+.navbar-toggle{
+    background-color: #3c763d;
+    margin-top: 21px;
+}
+#inputTexto{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.texto p{
+    top: 42%;
+    position: absolute;
+    font-family: multicolore;
+    max-width: 60vw;
+    left: 20vw;
+    font-size: 10px;
+}
+.div-icono{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
